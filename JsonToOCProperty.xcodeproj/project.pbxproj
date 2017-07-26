@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D171FE641F286A65006942A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D171FE631F286A65006942A7 /* AppDelegate.m */; };
+		D171FE671F286A65006942A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D171FE661F286A65006942A7 /* main.m */; };
+		D171FE6A1F286A65006942A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D171FE691F286A65006942A7 /* ViewController.m */; };
+		D171FE6C1F286A65006942A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D171FE6B1F286A65006942A7 /* Assets.xcassets */; };
+		D171FE6F1F286A65006942A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D171FE6D1F286A65006942A7 /* Main.storyboard */; };
+		D171FE7A1F286A65006942A7 /* JsonToOCPropertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D171FE791F286A65006942A7 /* JsonToOCPropertyTests.m */; };
+		D171FE851F286A65006942A7 /* JsonToOCPropertyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D171FE841F286A65006942A7 /* JsonToOCPropertyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D171FE761F286A65006942A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D171FE571F286A65006942A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D171FE5E1F286A65006942A7;
+			remoteInfo = JsonToOCProperty;
+		};
+		D171FE811F286A65006942A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D171FE571F286A65006942A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D171FE5E1F286A65006942A7;
+			remoteInfo = JsonToOCProperty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D171FE5F1F286A65006942A7 /* JsonToOCProperty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonToOCProperty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D171FE621F286A65006942A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D171FE631F286A65006942A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D171FE661F286A65006942A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D171FE681F286A65006942A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D171FE691F286A65006942A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D171FE6B1F286A65006942A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D171FE6E1F286A65006942A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D171FE701F286A65006942A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D171FE751F286A65006942A7 /* JsonToOCPropertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonToOCPropertyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D171FE791F286A65006942A7 /* JsonToOCPropertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToOCPropertyTests.m; sourceTree = "<group>"; };
+		D171FE7B1F286A65006942A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D171FE801F286A65006942A7 /* JsonToOCPropertyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonToOCPropertyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D171FE841F286A65006942A7 /* JsonToOCPropertyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToOCPropertyUITests.m; sourceTree = "<group>"; };
+		D171FE861F286A65006942A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D171FE5C1F286A65006942A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171FE721F286A65006942A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171FE7D1F286A65006942A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D171FE561F286A65006942A7 = {
+			isa = PBXGroup;
+			children = (
+				D171FE611F286A65006942A7 /* JsonToOCProperty */,
+				D171FE781F286A65006942A7 /* JsonToOCPropertyTests */,
+				D171FE831F286A65006942A7 /* JsonToOCPropertyUITests */,
+				D171FE601F286A65006942A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D171FE601F286A65006942A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D171FE5F1F286A65006942A7 /* JsonToOCProperty.app */,
+				D171FE751F286A65006942A7 /* JsonToOCPropertyTests.xctest */,
+				D171FE801F286A65006942A7 /* JsonToOCPropertyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D171FE611F286A65006942A7 /* JsonToOCProperty */ = {
+			isa = PBXGroup;
+			children = (
+				D171FE621F286A65006942A7 /* AppDelegate.h */,
+				D171FE631F286A65006942A7 /* AppDelegate.m */,
+				D171FE681F286A65006942A7 /* ViewController.h */,
+				D171FE691F286A65006942A7 /* ViewController.m */,
+				D171FE6B1F286A65006942A7 /* Assets.xcassets */,
+				D171FE6D1F286A65006942A7 /* Main.storyboard */,
+				D171FE701F286A65006942A7 /* Info.plist */,
+				D171FE651F286A65006942A7 /* Supporting Files */,
+			);
+			path = JsonToOCProperty;
+			sourceTree = "<group>";
+		};
+		D171FE651F286A65006942A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D171FE661F286A65006942A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D171FE781F286A65006942A7 /* JsonToOCPropertyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D171FE791F286A65006942A7 /* JsonToOCPropertyTests.m */,
+				D171FE7B1F286A65006942A7 /* Info.plist */,
+			);
+			path = JsonToOCPropertyTests;
+			sourceTree = "<group>";
+		};
+		D171FE831F286A65006942A7 /* JsonToOCPropertyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D171FE841F286A65006942A7 /* JsonToOCPropertyUITests.m */,
+				D171FE861F286A65006942A7 /* Info.plist */,
+			);
+			path = JsonToOCPropertyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D171FE5E1F286A65006942A7 /* JsonToOCProperty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D171FE891F286A65006942A7 /* Build configuration list for PBXNativeTarget "JsonToOCProperty" */;
+			buildPhases = (
+				D171FE5B1F286A65006942A7 /* Sources */,
+				D171FE5C1F286A65006942A7 /* Frameworks */,
+				D171FE5D1F286A65006942A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonToOCProperty;
+			productName = JsonToOCProperty;
+			productReference = D171FE5F1F286A65006942A7 /* JsonToOCProperty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D171FE741F286A65006942A7 /* JsonToOCPropertyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D171FE8C1F286A65006942A7 /* Build configuration list for PBXNativeTarget "JsonToOCPropertyTests" */;
+			buildPhases = (
+				D171FE711F286A65006942A7 /* Sources */,
+				D171FE721F286A65006942A7 /* Frameworks */,
+				D171FE731F286A65006942A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D171FE771F286A65006942A7 /* PBXTargetDependency */,
+			);
+			name = JsonToOCPropertyTests;
+			productName = JsonToOCPropertyTests;
+			productReference = D171FE751F286A65006942A7 /* JsonToOCPropertyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D171FE7F1F286A65006942A7 /* JsonToOCPropertyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D171FE8F1F286A65006942A7 /* Build configuration list for PBXNativeTarget "JsonToOCPropertyUITests" */;
+			buildPhases = (
+				D171FE7C1F286A65006942A7 /* Sources */,
+				D171FE7D1F286A65006942A7 /* Frameworks */,
+				D171FE7E1F286A65006942A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D171FE821F286A65006942A7 /* PBXTargetDependency */,
+			);
+			name = JsonToOCPropertyUITests;
+			productName = JsonToOCPropertyUITests;
+			productReference = D171FE801F286A65006942A7 /* JsonToOCPropertyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D171FE571F286A65006942A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ken Choi";
+				TargetAttributes = {
+					D171FE5E1F286A65006942A7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					D171FE741F286A65006942A7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D171FE5E1F286A65006942A7;
+					};
+					D171FE7F1F286A65006942A7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D171FE5E1F286A65006942A7;
+					};
+				};
+			};
+			buildConfigurationList = D171FE5A1F286A65006942A7 /* Build configuration list for PBXProject "JsonToOCProperty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D171FE561F286A65006942A7;
+			productRefGroup = D171FE601F286A65006942A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D171FE5E1F286A65006942A7 /* JsonToOCProperty */,
+				D171FE741F286A65006942A7 /* JsonToOCPropertyTests */,
+				D171FE7F1F286A65006942A7 /* JsonToOCPropertyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D171FE5D1F286A65006942A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171FE6C1F286A65006942A7 /* Assets.xcassets in Resources */,
+				D171FE6F1F286A65006942A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171FE731F286A65006942A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171FE7E1F286A65006942A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D171FE5B1F286A65006942A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171FE6A1F286A65006942A7 /* ViewController.m in Sources */,
+				D171FE671F286A65006942A7 /* main.m in Sources */,
+				D171FE641F286A65006942A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171FE711F286A65006942A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171FE7A1F286A65006942A7 /* JsonToOCPropertyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171FE7C1F286A65006942A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171FE851F286A65006942A7 /* JsonToOCPropertyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D171FE771F286A65006942A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D171FE5E1F286A65006942A7 /* JsonToOCProperty */;
+			targetProxy = D171FE761F286A65006942A7 /* PBXContainerItemProxy */;
+		};
+		D171FE821F286A65006942A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D171FE5E1F286A65006942A7 /* JsonToOCProperty */;
+			targetProxy = D171FE811F286A65006942A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D171FE6D1F286A65006942A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D171FE6E1F286A65006942A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D171FE871F286A65006942A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D171FE881F286A65006942A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D171FE8A1F286A65006942A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToOCProperty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooci.JsonToOCProperty.JsonToOCProperty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D171FE8B1F286A65006942A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToOCProperty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooci.JsonToOCProperty.JsonToOCProperty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D171FE8D1F286A65006942A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToOCPropertyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooci.JsonToOCProperty.JsonToOCPropertyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonToOCProperty.app/Contents/MacOS/JsonToOCProperty";
+			};
+			name = Debug;
+		};
+		D171FE8E1F286A65006942A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToOCPropertyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooci.JsonToOCProperty.JsonToOCPropertyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonToOCProperty.app/Contents/MacOS/JsonToOCProperty";
+			};
+			name = Release;
+		};
+		D171FE901F286A65006942A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToOCPropertyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooci.JsonToOCProperty.JsonToOCPropertyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonToOCProperty;
+			};
+			name = Debug;
+		};
+		D171FE911F286A65006942A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToOCPropertyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooci.JsonToOCProperty.JsonToOCPropertyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonToOCProperty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D171FE5A1F286A65006942A7 /* Build configuration list for PBXProject "JsonToOCProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D171FE871F286A65006942A7 /* Debug */,
+				D171FE881F286A65006942A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D171FE891F286A65006942A7 /* Build configuration list for PBXNativeTarget "JsonToOCProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D171FE8A1F286A65006942A7 /* Debug */,
+				D171FE8B1F286A65006942A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D171FE8C1F286A65006942A7 /* Build configuration list for PBXNativeTarget "JsonToOCPropertyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D171FE8D1F286A65006942A7 /* Debug */,
+				D171FE8E1F286A65006942A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D171FE8F1F286A65006942A7 /* Build configuration list for PBXNativeTarget "JsonToOCPropertyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D171FE901F286A65006942A7 /* Debug */,
+				D171FE911F286A65006942A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D171FE571F286A65006942A7 /* Project object */;
+}
