@@ -37,7 +37,7 @@
     if ([tempdic isKindOfClass:[NSDictionary class]]) {
         __block NSString * jsonText = @"";
         [tempdic enumerateKeysAndObjectsUsingBlock:^(NSString *   key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-            jsonText = [NSString stringWithFormat:@"@property NSString * %@;\n%@",key,jsonText];
+            jsonText = [NSString stringWithFormat:@"@property (nonatomic, copy) NSString * %@;\n%@",key,jsonText];
             
         }];
      _resultLab.stringValue = jsonText;
