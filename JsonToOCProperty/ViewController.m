@@ -11,6 +11,9 @@
 @property (weak) IBOutlet NSTextField *textField;
 //@property (weak) IBOutlet NSTextView *resultTextView;
 @property (weak) IBOutlet NSTextField *resultLab;
+@property (weak) IBOutlet NSButton *choiceBtn;
+@property (weak) IBOutlet NSTextField *paraTF;
+@property (weak) IBOutlet NSTextField *paramNameTF;
 
 @end
 
@@ -18,8 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.choiceBtn.state = NSControlStateValueMixed;
     // Do any additional setup after loading the view.
+    self.paramNameTF.stringValue = @"pramas";
 }
 
 
@@ -36,10 +40,28 @@
     NSLog(@"tempdic");
     if ([tempdic isKindOfClass:[NSDictionary class]]) {
         __block NSString * jsonText = @"";
-        [tempdic enumerateKeysAndObjectsUsingBlock:^(NSString *   key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-            jsonText = [NSString stringWithFormat:@"@property (nonatomic, copy) NSString * %@;\n%@",key,jsonText];
-            
-        }];
+        
+        if (self.choiceBtn.state) {
+            [tempdic enumerateKeysAndObjectsUsingBlock:^(NSString *   key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+                jsonText = [NSString stringWithFormat:@"%@ :(NSString *)%@ \n%@",key,key,jsonText];
+                
+            }];
+            __block NSString * params = @"";
+            [tempdic enumerateKeysAndObjectsUsingBlock:^(NSString *   key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+                params = [NSString stringWithFormat:@"[%@ setObject:%@ forKey:""%@""]; \n%@",self.paramNameTF.stringValue,key,key,params];
+                
+            }];
+            _paraTF.stringValue = params;
+
+        }
+        else
+        {
+            [tempdic enumerateKeysAndObjectsUsingBlock:^(NSString *   key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+                jsonText = [NSString stringWithFormat:@"@property (nonatomic, copy) NSString * %@;\n%@",key,jsonText];
+                
+            }];
+        }
+   
      _resultLab.stringValue = jsonText;
         
 
@@ -70,5 +92,8 @@
         return nil;
     }
     return dic;
+}
+- (IBAction)choiceBtnAction:(NSButton*)sender {
+//    sender.state = !sender.state;
 }
 @end
